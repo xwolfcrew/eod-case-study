@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'ChapeauMedium';
+  src: url('fonts/Chapeau-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ChapeauLight';
+  src: url('fonts/Chapeau-Light.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +24,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "ChapeauMedium", sans-serif;
 }
 
 img {
@@ -169,7 +183,7 @@ nav {
 }
 
 .text-body-header h2 {
-  font-size: clamp(14px, 1.5vw, 2vw);
+  font-size: clamp(12px, 1.3vw, 2vw);
   font-weight: 300;
   color: rgba(0, 0, 0, 0.4);
   line-height: 1.2;
@@ -229,6 +243,7 @@ nav {
 }
 
 .text-body-content p {
+  font-family: 'ChapeauLight', sans-serif;
   font-size: clamp(14px, 1vw + 8px, 22px);
   letter-spacing: 0.1rem;
   line-height: 1.1;
