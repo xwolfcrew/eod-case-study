@@ -300,3 +300,9 @@ nav {
     width: 106%;
   }
 }
+
+@media (max-width: 400px) {
+  .text-body-header {
+    padding: 0 8rem;
+  }
+}
