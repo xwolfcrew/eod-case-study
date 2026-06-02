@@ -25,6 +25,8 @@
 
 body {
   font-family: "ChapeauMedium", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img {
