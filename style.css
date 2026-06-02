@@ -163,7 +163,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 6rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   padding: 6rem;
   align-items: center;
 }
@@ -286,12 +286,13 @@ nav {
   }
 
   .text-body {
-    margin-top: 1rem;
+    padding: 2rem 4rem;
+    margin-top: 0;
     gap: 4rem;
   }
 
   .text-body-header {
-    padding: 0 6rem;
+    padding: 0 4rem;
   }
 
   .text-body-content {
@@ -304,6 +305,15 @@ nav {
 }
 
 @media (max-width: 400px) {
+  .text-body {
+    padding: 0 4rem;
+    margin-top: 0;
+  }
+
+  .nav-hamburger {
+    display: none;
+  }
+
   .text-body-header {
     padding: 0 8rem;
   }
